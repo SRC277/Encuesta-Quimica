@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de Química</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Encuesta de Química</h1>
+        <form>
+            <!-- Pregunta 1 -->
+            <div class="question">
+                <p>1. ¿Qué forman los compuestos de carbono?.</p>
+                <div class="options">
+                    <label><input type="radio" name="q1" value="A"> A) Proteinas</label>
+                    <label><input type="radio" name="q1" value="B"> B) CHidrocarburos</label>
+                    <label><input type="radio" name="q1" value="C"> C) ADN</label>
+                    <label><input type="radio" name="q1" value="D"> D) Todas las anteriores</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q1')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 2 -->
+            <div class="question">
+                <p>2. ¿Qué es un enlace iónico?.</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Es una fuerza de atracción entre iones o cargas compuestas.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Es una fuerza de atracción de electrones.</label>
+                    <label><input type="radio" name="q2" value="C"> C) ES una fuerza de atracción entre átomos y electrones.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 3 -->
+            <div class="question">
+                <p>3. ¿Qué mide la electronegatividad?.</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Mide la capacidad de una materia para atraer enlaces.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Mide la capacidad de los enlaces para atraer materia.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Mide la capacidad de un átomo para atraer electrones.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Todas las anteriores</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 4 -->
+            <div class="question">
+                <p>4. De los siguientes metales ¿Cúal es el que tiene electronegatividad baja?.</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Flúor</label>
+                    <label><input type="radio" name="q2" value="B"> B) Magnesio</label>
+                    <label><input type="radio" name="q2" value="C"> C) Litio</label>
+                    <label><input type="radio" name="q2" value="D"> D) Cobre</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 5 -->
+            <div class="question">
+                <p>5. ¿De los siguientes elementos químicos ¿cúal es el que tiene la mayor electronegatividad?.</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Magnesio.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Flúor.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Azufre.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 6 -->
+            <div class="question">
+                <p>6. ¿Cuándo se forman los enlaces iónicos?.</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Cuando reaccionan 10 o más átomos para formar el tipo de enlace iónico.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Cuando los átomos de diferente electronegatividad transfieren electrones.</label>
+                    <label><input type="radio" name="q2" value="C"> C) No se forman por que no coinciden.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Todas las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 7 -->
+            <div class="question">
+                <p>7. Entre los siguientes productos ¿Cuáles forman los enlaces covalentes?.</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Oxigeno.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Moléculas y átomos.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Enlace iónico.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguno de los anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 8 -->
+            <div class="question">
+                <p>8. ¿Cuál de las siguientes estructuras son la estructura de Lewis?.</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) H∙ + ∙H → H ꓽH.</label>
+                    <label><input type="radio" name="q2" value="B"> B) CH4 + CH + H2O.</label>
+                    <label><input type="radio" name="q2" value="C"> C) CH3 + CH + CH2.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 9 -->
+            <div class="question">
+                <p>9. ¿Cuál es la representación de la estructura de Lewis?.</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Mostrando los electrones de valencia.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Mostrando los iones de valencia .</label>
+                    <label><input type="radio" name="q2" value="C"> C) Mostrando los enlaces de valencia .</label>
+                    <label><input type="radio" name="q2" value="D"> D) Todas las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 10 -->
+            <div class="question">
+                <p>10. ¿Qué comparten los átomos?.</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Moléculas .</label>
+                    <label><input type="radio" name="q2" value="B"> B) Gases.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Electrones.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 11 -->
+            <div class="question">
+                <p>11. ¿Por qué es bueno compartir electrones?.</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Produce aumento de densidad en los núcleos positivos  .</label>
+                    <label><input type="radio" name="q2" value="B"> B) Producen aumento de moléculas.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Produce un aumento de iones.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Todas las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 12 -->
+            <div class="question">
+                <p>12. ¿Que comparten los átomos?.</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Electrones.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Gases.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Iones.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 13 -->
+            <div class="question">
+                <p>13. ¿Qué son las cargas formales</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Cargas unitarias positivas o negativas.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Cargas unitarias negativas.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Cargas unitarias positivas.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Todas las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 14 -->
+            <div class="question">
+                <p>14. ¿Cómo se calculan las cargas formales?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Se calculan restando el número de electrones de valencia asignados a un átomo en su estado enlazado, del número de electrones de valencia que tiene como átomo libre neutro.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Se calculan sumando el número de iones asignados a un átomo en su estado enlazado. Del número de iones de valencia que tiene como átomo libre neutro.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Se calculan restando el número de carbonos de valencia asignados a un átomo en su estado enlazado, del número de carbonos de valencia que tiene como átomo libre neutro.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 15 -->
+            <div class="question">
+                <p>15. ¿Qué es la energía?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Capacidad de realizar un trabajo.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Capacidad de reflejar la luz en cualquier lugar del mundo.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Capacidad de realizar un tratamiento.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores .</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 16 -->
+            <div class="question">
+                <p>16. ¿Qué es energía cinética?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Energía que posee un objeto en movimiento debido a su velocidad.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Energía que se transforma en cinética .</label>
+                    <label><input type="radio" name="q2" value="C"> C) Energía que está en velocidad.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores .</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 17 -->
+            <div class="question">
+                <p>17. ¿Cuáles son los 2 tipos de fundamentales de energía?.</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Energía solar y  mecánica.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Energía térmica y .</label>
+                    <label><input type="radio" name="q2" value="C"> C) Energía cinética y potencial.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 18 -->
+            <div class="question">
+                <p>18. ¿Qué es la energía potencial?.</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Energía almacenada existe cuando entre los objetos hay una fuerza de atracción o repulsión.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Energía con frecuente almacenamiento para los objetos y que tengan fuerza de atracción o de repulsión.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Energía con enlaces dobles que con almacenamiento tengan fuerza para atraer energía.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguno de los anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 19 -->
+            <div class="question">
+                <p>19. ¿Qué son las reacciones exotérmicas?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Son las que desprenden calor .</label>
+                    <label><input type="radio" name="q2" value="B"> B) Son las que absorbe calor.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Son las que generan el calor.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 20 -->
+            <div class="question">
+                <p>20. ¿Que son las reacciones endotérmicas?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Son las que absorben calor.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Son las que generan calor .</label>
+                    <label><input type="radio" name="q2" value="C"> C) Son las que desprenden calor.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores .</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 21 -->
+            <div class="question">
+                <p>21. ¿Por qué el carbono es el elemento fundamental en los compuestos orgánicos?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Por qué es capaz de formar 4 enlaces covalentes estables lo que permite crear estructuras complejas.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Por qué es capaz de formar 8 enlaces estables para crear estructuras solidas.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Por qué es capaz de formar más de 12 enlaces covalentes para crear compuestos orgánicos.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 22 -->
+            <div class="question">
+                <p>22. Explique la teoría estructural de la química orgánica </p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Establece las propiedades de un compuesto orgánico .</label>
+                    <label><input type="radio" name="q2" value="B"> B) Moléculas y Establece las propiedades de un compuesto dependen no solo de los elementos presentes si no también están conectados a atomos.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Establece compuestos que depende de la qúimica organica que los conecta a estructuras para generar compuesto.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Todas las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 23 -->
+            <div class="question">
+                <p>23. ¿Qué es la resonancia en una molécula orgánica?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Describe la distribución de electrones mediante varias estructuras posibles.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Describe la distribución de atomos para generar la molécula.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Describe la distribución de iones para que la resonancia se active .</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 24 -->
+            <div class="question">
+                <p>24. ¿Cuál es la diferencia entre moléculas polares y no polares?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Las moléculas polares generan calor y las no polares generan frio.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Las  moléculas polares liberan atomos y las no polares iones.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Las moléculas tienen distribución desigual de electrones generando dipolo eléctrico, las no polares tienen distribución uniforme.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Todas las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 25 -->
+            <div class="question">
+                <p>25. ¿Qué caracteriza a los enlaces carbono-carbono en compuestos orgánicos?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Son fuertes y estables y permiten la formación de largas cadenas y estructuras.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Son débiles ante los compuestos orgánicos y no logra formarse la estructura.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Son fuertes y forman pirámides de los compuestos orgánicos.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Todas las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 26 -->
+            <div class="question">
+                <p>26. ¿Qué tipo de enlace predomina en los alcanos?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Enlaces simples.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Enlaces de doble cadena.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Enlace doble .</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 27 -->
+            <div class="question">
+                <p>27. ¿Qué es la mecánica cuántica y como se aplica en química orgánica?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Describe el comportamiento de electrones en atomos y moléculas.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Describe el nivel del agua entre atomos y moléculas .</label>
+                    <label><input type="radio" name="q2" value="C"> C) Describe las moléculas y electrones entre el agua.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Todas las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 28 -->
+            <div class="question">
+                <p>28. ¿Qué es la mecánica cuántica y como se aplica en química orgánica?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Describe el comportamiento de electrones en atomos y moléculas.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Describe el nivel del agua entre atomos y moléculas.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Describe las moléculas y electrones entre el agua .</label>
+                    <label><input type="radio" name="q2" value="D"> D) Todas las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 29 -->
+            <div class="question">
+                <p>29. ¿Qué es la estructura de Lewis y para que se utiliza?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Representación gráfica de los electrones de valencia, atomos en una molécula útil para visualizar enlaces y partes libres.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Representación gráfica sobre atomos y enlaces respecto a cómo se utiliza la misma estructura.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Representación gráfica de los valores más altos de atomos y electrones de valencia.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 30 -->
+            <div class="question">
+                <p>30. ¿Cómo se calcula la carga formal de un átomo en una molécula?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Carga formal= electrones de valencia – electrones no compartidos + ½ electrones compartidos.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Electrones de valencia +electrones no compartidos + 2 electrones compartidos.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Electrones no compartidos + 4 electrones compartidos= carga formal.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Todas las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 31 -->
+            <div class="question">
+                <p>31. ¿Qué es un enlace sigma?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Enlace covalente formado por la superposición frontal de 2 orbitales.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Enlace doble formado por  la superposición frontal de 6 orbitales.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Enlace de doble cadena formado por superposición de 4 orbitales .</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 32 -->
+            <div class="question">
+                <p>32. ¿Cómo afecta la electronegatividad al tipo de enlace entre 2 átomos?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Produce un enlace polar.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Produce un enlace no polar.</label>
+                    <label><input type="radio" name="q2" value="D"> C) Todas las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 33 -->
+            <div class="question">
+                <p>33. ¿Qué caracteriza a los enlaces de un alquenó?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) El enlace sigma y el enlace pi.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Enlace sigma.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Enlace Pi.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 34 -->
+            <div class="question">
+                <p>34. ¿Qué reacciones son características de los alquinos?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Reacciones de adición .</label>
+                    <label><input type="radio" name="q2" value="B"> B) Hidrogenación.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Halogenación .</label>
+                    <label><input type="radio" name="q2" value="D"> D) Todas las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta 35 -->
+            <div class="question">
+                <p>35. ¿Por qué el carbono es el elemento central en la química orgánica?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Por qué puede formar 4 enlaces covalentes, enlaces múltiples y cadenas largas.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Puede formar 6 enlaces covalentes y cadenas múltiples.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Puede formar enlaces múltiples y cadenas largas con 9 enlaces covalentes.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguna de las anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            <!-- Pregunta BASE 
+            <div class="question">
+                <p>0. ¿Bolas?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> A) Oxigeno.</label>
+                    <label><input type="radio" name="q2" value="B"> B) Moléculas y átomos.</label>
+                    <label><input type="radio" name="q2" value="C"> C) Enlace iónico.</label>
+                    <label><input type="radio" name="q2" value="D"> D) Ninguno de los anteriores.</label>
+                </div>
+                <button type="button" class="clear-btn" onclick="clearSelection('q2')">Borrar Respuesta</button>
+            </div>
+            -->
+            <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
